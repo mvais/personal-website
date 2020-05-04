@@ -1,8 +1,8 @@
 .btn {
     background-color: #55bd69;
+    color: #fff;
     border: none;
     border-radius: 3px;
-    color: #0b2239;
     cursor: pointer;
     display: inline-block;
     font-family: Proxima Nova,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
@@ -16,10 +16,21 @@
     vertical-align: middle;
     white-space: nowrap;
     outline: none;
-    color: white;
     font-weight: bold;
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
 }
 
 .btn:hover {
     opacity: .80;
+}
+
+.btn-blue {
+    background-color: #34495e;
+}
+
+.btn-blue:hover {
+    background-color: #415b76;
 }
