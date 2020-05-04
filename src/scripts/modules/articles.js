@@ -1,6 +1,7 @@
 module.exports = [
   {
     "name": "Investigating the MJHL, OJHL, BCHL",
+    "tags": ['hockey', 'data science'],
     "date": "05-01-2020"
   },
   {

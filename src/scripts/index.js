@@ -18,7 +18,7 @@ if (document.querySelector('#article-filter')) {
   input.addEventListener('input', function (event) {
     const articleList = document.querySelector('#articles');
     const filteredArticles = articles.filter(article => {
-      if (article.name.toLowerCase().includes(input.value)) return true
+      if (article.name.toLowerCase().includes(input.value.toLowerCase())) return true
     });
 
     articleList.innerHTML = '';
